@@ -1,5 +1,5 @@
 {
-  "name": "stucco",
+  "name": "provizo",
   "version": "1.0.0",
   "description": "Auto-install npm required modules if you typed npm init too late",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "yargs": "^15.1.0"
   },
   "bin": {
-    "stucco": "req.js"
+    "provizo": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

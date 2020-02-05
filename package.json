@@ -1,0 +1,19 @@
+{
+  "name": "stucco",
+  "version": "1.0.0",
+  "description": "Auto-install npm required modules if you typed npm init too late",
+  "main": "index.js",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "yargs": "^15.1.0"
+  },
+  "bin": {
+    "stucco": "req.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elliot Berry",
+  "license": "ISC"
+}
